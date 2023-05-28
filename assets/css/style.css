@@ -144,7 +144,18 @@ body {
 }
 
 
-/* FORM */
+/* FORM + ARTICLE 6*/
+
+#article-6 {
+    background-color: lightgrey;
+    margin-top: 35px;
+    padding: 20px;
+}
+
+#article-6 h3 {
+    font-weight: bold;
+    text-align: center;
+}
 
 /* ELEMENTI NELL' ASIDE */
 
