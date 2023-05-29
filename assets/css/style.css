@@ -63,6 +63,10 @@ body {
     max-width: 100%;
 }
 
+#p-1 {
+    color:grey;
+}
+
 
 /* ARTICLE-2 */
 
@@ -105,7 +109,6 @@ body {
 /* TABELLE + ARTICLE-4 */
 
 #article-4 {
-    background-color: lightblue;
     line-height: 20px;
 }
 
@@ -114,12 +117,16 @@ body {
 }
 
 .th {
+    color: white;
+    padding: 10px;
     background-color: #0056c0;
 }
 
 #table td, tr {
+    width: 30vw;
     padding: 8px;
     text-align: center;
+    vertical-align: middle;
 }
 
 #iframe-yt {
@@ -143,19 +150,54 @@ body {
     line-height: 20px;
 }
 
+#article-5 p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+#iframe-yt {
+    border-radius: 30px;
+}
+
 
 /* FORM + ARTICLE 6*/
 
 #article-6 {
     background-color: lightgrey;
     margin-top: 35px;
-    padding: 20px;
+    padding: 0px;
+    line-height: 25px;
 }
 
 #article-6 h3 {
     font-weight: bold;
     text-align: center;
+    padding: 20px;
 }
+
+#article-6 p {
+    padding: 10px;
+}
+
+form {
+    padding: 10px;
+}
+
+#input-1 {
+    padding: 8px;
+    width: 70%;
+}
+
+#first-button {
+    background-color: #0056c0;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    width: 80px;
+}
+
 
 /* ELEMENTI NELL' ASIDE */
 
@@ -173,4 +215,27 @@ body {
     padding: 30px;
     line-height: 20px;
 }
+
+
 /* FOOTER */
+
+#footer {
+    width: 30vw;
+    margin: 0 auto;
+    color: white;
+    background-color: #014252;
+    text-align: center;
+    padding: 20px 20px 30px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer a {
+    color:rgb(255, 0, 255);
+}
+
+#footer > p {
+    padding-bottom: 20px;
+}
+
